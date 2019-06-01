@@ -5,6 +5,7 @@ make protoc
 make client
 
 #在不同的终端上
+#./client name 本节点ip 其他节点ip 其他节点ip
 ./client c0 0.0.0.0:50051 localhost:50052 localhost:50053
 ./client c1 0.0.0.0:50052 localhost:50051 localhost:50053
 ./client c2 0.0.0.0:50053 localhost:50051 localhost:50052
